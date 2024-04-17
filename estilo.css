@@ -144,9 +144,45 @@ background: linear-gradient(0deg, rgba(11,8,8,1) 5%, rgba(189,19,19,1) 74%, rgba
 }
  
 #rodape {
-    height: 100px;
-    background: rgb(11,8,8);
+    height: 150px;
+    background-color: #400c0c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contato {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.contato h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.contato p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
 
 #logo img {
     height: 100%;
